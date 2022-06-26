@@ -1,0 +1,106 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Руководство по количественному анализу мировой экономики и международных отношений
+site_url: https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide
+docs_dir: '../../docs/ru'                           # Where to find the English markdown files
+site_dir: '../../generated/ru'                      # Where to put the English HTML files
+
+repo_url: https://github.com/vgrigoryevsky/world-economy-and-international-relations-quantitative-analysis-guide
+
+theme:
+  name: material
+  custom_dir: '../../overrides/'                  # This is where the customization of the theme lives
+  #  logo: assets/images/logo.svg                    # The logo is shared by all languages
+  #  favicon: assets/images/favicon.ico              # The favicon is shared by all languages
+  language: ru
+  font:
+    h:
+      PT Sans
+    text:
+      PT Sans
+    code:
+      Consolas
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Russian
+      link: /ru/
+      lang: ru
+
+plugins:
+  - search:
+      lang:
+        - ru
+
+nav:
+  - Главная:
+      - О проекте: index.md
+      - Введение:
+          - Роль количественных методов в анализе мировой экономики и международных отношений: TODO.md
+          - Связь с другими методами анализа: TODO.md
+      - Методология:
+          - Организация исследования: TODO.md
+          - Формулирования гипотез, целей и задач: TODO.md
+          - Выбор источников: TODO.md
+          - Получение данных: TODO.md
+          - Очистка данных: TODO.md
+          - Обработка данных и методы анализа: TODO.md
+          - Визуализация данных:
+              - Таблицы: TODO.md
+              - Грифики: TODO.md
+              - Графы: TODO.md
+              - Карты: TODO.md
+          - Результаты исследования:
+              - Оформление: TODO.md
+              - Выводы: TODO.md
+              - Рекомендации: TODO.md
+  - Частые вопросы: faq/faq.md
+  - Поучаствовать: contribute/contribute.md
+  - Сообщить о проблеме: report/report.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
