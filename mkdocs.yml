@@ -1,0 +1,157 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Руководство по количественному анализу мировой экономики и международных отношений
+site_url: https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide
+
+repo_url: https://github.com/vgrigoryevsky/world-economy-and-international-relations-quantitative-analysis-guide
+
+theme:
+  name: material
+  #  logo: assets/images/logo.svg                    # The logo is shared by all languages
+  #  favicon: assets/images/favicon.ico              # The favicon is shared by all languages
+  font:
+    h:
+      PT Sans
+    text:
+      PT Sans
+    code:
+      Consolas
+  features:
+    ## mkdocs-material language switcher contextual link is not compatible with theme.features = navigation.instant
+    #- navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - i18n:
+      default_language: ru
+      languages:
+        en:
+          name: English
+          build: true
+          site_name: World Economy and International Relations Quantitative Analysis Guide
+        ru:
+          name: Russian
+          build: true
+      material_alternate: true
+      nav_translations:
+        ru:
+          main: Главная
+          about: О проекте
+          intro: Введение
+          role: Роль количественных методов
+          relation: Связь с другими методами анализа
+          methodology: Методология
+          ornanasing: Организация исследования
+          hypethesis: Формулирования гипотез, целей и задач
+          data_sources: Выбор источников
+          data_ing: Получение данных
+          data_cln: Очистка данных
+          data_proc: Обработка данных и методы анализа
+          data_vis: Визуализация данных
+          tables: Таблицы
+          plots: Грифики
+          graphs: Графы
+          maps: Карты
+          results: Результаты исследования
+          present: Оформление
+          conclude: Выводы
+          recommend: Рекомендации
+          faq: Частые вопросы
+          contribute: Поучаствовать
+          issues: Сообщить о проблеме
+        en:
+          main: Main
+          about: About
+          intro: Introduction
+          role: Role of Quantitative Methods
+          relation: Relation to other Analysis Methods
+          methodology: Methodology
+          ornanasing: Research organisation
+          hypethesis: Hypotheses, Goals and Objectives
+          data_sources: Data Sources
+          data_ing: Data Ingestion
+          data_cln: Data Cleansing
+          data_proc: Data Processing and Analysis Methods
+          data_vis: Data Visualisation
+          tables: Tables
+          plots: Plots
+          graphs: Graphs
+          maps: Maps
+          results: Research Results
+          present: Presentation
+          conclude: Conclusions
+          recommend: Recommendations
+          faq: FAQ
+          contribute: Contribution
+          issues: Report Issues
+  - search
+#      lang:
+#        - en
+#        - ru
+
+nav:
+  - main:
+      - about: index.md
+      - intro:
+          - role: methodology/TODO.md
+          - relation: methodology/TODO.md
+      - methodology:
+          - ornanasing: methodology/TODO.md
+          - hypethesis: methodology/TODO.md
+          - data_sources: methodology/TODO.md
+          - data_ing: methodology/TODO.md
+          - data_cln: methodology/TODO.md
+          - data_proc: methodology/TODO.md
+          - data_vis:
+              - tables: methodology/TODO.md
+              - plots: methodology/TODO.md
+              - graphs: methodology/TODO.md
+              - maps: methodology/TODO.md
+          - results:
+              - present: methodology/TODO.md
+              - conclude: methodology/TODO.md
+              - recommend: methodology/TODO.md
+  - faq: faq.md
+  - contribute: contribute.md
+  - issues: issues.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
