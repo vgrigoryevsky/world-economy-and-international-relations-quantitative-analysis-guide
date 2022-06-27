@@ -77,8 +77,9 @@ plugins:
           conclude: Выводы
           recommend: Рекомендации
           faq: Частые вопросы
-          contribute: Поучаствовать
+          contribute: Присоединиться
           issues: Сообщить о проблеме
+          lic: Лицензия
         en:
           main: Main
           about: About
@@ -102,8 +103,9 @@ plugins:
           conclude: Conclusions
           recommend: Recommendations
           faq: FAQ
-          contribute: Contribution
+          contribute: Contributing
           issues: Report Issues
+          lic: License
   - search
 #      lang:
 #        - en
@@ -132,8 +134,9 @@ nav:
               - conclude: methodology/TODO.md
               - recommend: methodology/TODO.md
   - faq: faq.md
-  - contribute: contribute.md
+  - contribute: contributing.md
   - issues: issues.md
+  - lic: LICENSE.md
 
 markdown_extensions:
   - pymdownx.superfences:
