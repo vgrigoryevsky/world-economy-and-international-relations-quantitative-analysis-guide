@@ -2,23 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
          <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/</loc>
-         <lastmod>2022-06-26</lastmod>
+         <lastmod>2022-06-27</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/"/>
          
     </url>
     <url>
-         <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/contribute/</loc>
-         <lastmod>2022-06-26</lastmod>
+         <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ICLA/</loc>
+         <lastmod>2022-06-27</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/contribute/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/contribute/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/ICLA/"/>
+         <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/ICLA/"/>
+         
+    </url>
+    <url>
+         <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/LICENSE/</loc>
+         <lastmod>2022-06-27</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/LICENSE/"/>
+         <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/LICENSE/"/>
+         
+    </url>
+    <url>
+         <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/contributing/</loc>
+         <lastmod>2022-06-27</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/contributing/"/>
+         <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/contributing/"/>
          
     </url>
     <url>
          <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/faq/</loc>
-         <lastmod>2022-06-26</lastmod>
+         <lastmod>2022-06-27</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/faq/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/faq/"/>
@@ -26,7 +42,7 @@
     </url>
     <url>
          <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/issues/</loc>
-         <lastmod>2022-06-26</lastmod>
+         <lastmod>2022-06-27</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/issues/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/issues/"/>
@@ -34,7 +50,7 @@
     </url>
     <url>
          <loc>https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/methodology/TODO/</loc>
-         <lastmod>2022-06-26</lastmod>
+         <lastmod>2022-06-27</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/en/methodology/TODO/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://vgrigoryevsky.github.io/world-economy-and-international-relations-quantitative-analysis-guide/ru/methodology/TODO/"/>
